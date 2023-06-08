@@ -1,14 +1,14 @@
 import React from "react";
 
-const CartWidget = () => {
+const Contact = () => {
     return(
         <div>
         <p style={{textAlign:"center",fontSize:"100px"}}>
-            card
+            user
         </p>
     </div>
     )
 }
 
 
-export default CartWidget;
+export default Contact;

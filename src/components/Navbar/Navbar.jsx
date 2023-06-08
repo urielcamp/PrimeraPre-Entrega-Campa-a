@@ -1,4 +1,4 @@
-
+import { Link  } from "react-router-dom";
 import * as React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -13,9 +13,9 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import CartWidget from "../CartWidget/CartWidget";
 
-const pages = ['Inicio', 'Usuario', 'Carrito', <CartWidget/>];
+
+const pages = [<Link style={{textDecoration:"none", color:"white"}} to={"/user"}>Contact</Link>, <Link style={{textDecoration:"none", color:"white"}} to={"/card"}>Carrito</Link>];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar() {
@@ -42,9 +42,8 @@ function Navbar() {
         <Container maxWidth="xl">
             <Toolbar disableGutters>
 
-            <Typography
-            >
-                TIENDITA
+            <Typography>
+                <Link to={"/"}><img style={{width: "50px", margin:"5px"}} src="https://th.bing.com/th/id/OIP.BgBWh3h058fclVirjxnmSQHaHa?pid=ImgDet&rs=1" alt="imagen" /></Link>
             </Typography>
 
             <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -99,7 +98,7 @@ function Navbar() {
                 textDecoration: 'none',
                 }}
             >
-                LOGO
+                
             </Typography>
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                 {pages.map((page) => (
