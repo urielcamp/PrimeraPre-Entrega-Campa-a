@@ -1,0 +1,42 @@
+.artCarrito{
+    margin: 10px;
+    width: 100%;
+}
+
+.liCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;;
+}
+
+
+.divCardImg{
+    margin: 10px;
+    height: 130px;
+    width: 110px;
+}
+
+.imgCard{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.divCard{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.price{
+    color: rgb(4, 14, 125);
+    margin: 30px;
+    font-size: 30px;
+}
+
+.name{
+    font-size: 20px;
+    margin: 20px;
+}
+

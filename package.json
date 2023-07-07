@@ -10,16 +10,21 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emotion/react": "^11.11.0",
+    "@chakra-ui/react": "^2.7.1",
+    "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@fontsource/roboto": "^4.5.8",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.13.1",
     "@mui/styled-engine-sc": "^5.12.0",
+    "firebase": "^9.23.0",
+    "framer-motion": "^10.12.18",
+    "mdb-react-ui-kit": "^6.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.12.0",
-    "styled-components": "^5.3.10"
+    "styled-components": "^5.3.10",
+    "sweetalert2": "^11.7.12"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

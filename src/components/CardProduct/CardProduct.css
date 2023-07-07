@@ -1,0 +1,57 @@
+.divCardProd{
+    width: auto;
+    height:auto;
+}
+
+.card{
+    position: relative;
+    isolation: isolate;
+    width: 170px;
+    height: 250px;
+    background-color: #111824;
+    border-radius: 8px;
+    margin: 40px 40px;
+    padding: 10px 10px;
+}
+
+.cardImg{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 0 20%;
+    border-radius: inherit;
+    transition:  250ms;
+    
+}
+
+.card:hover .cardImg {
+    transform: translateY(-112px) scale(0.75);
+}
+
+.cardBody {
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 10px;
+    color: #f4c644;
+}
+
+.cardName {
+    color: #fff;
+    margin: 2px;
+}
+
+
+
+.botonComprar {
+    text-decoration: none;
+    padding: 1px;
+    border-radius: 4px;
+    background-color: #f4c644;
+    color: #000;
+}
+/*f4c644*/

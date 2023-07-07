@@ -1,0 +1,30 @@
+.articleCateg{
+    background-color: #a6aeb6;
+    height: 100%;
+    width: 200px;
+}
+
+.ulCateg{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+.liCateg{
+    color: rgb(57, 56, 56);
+    margin: 10px;
+    font-size: 18px;
+}
+
+h2{ 
+    color: rgb(0, 0, 0);
+    margin: 0px 10px 20px 20px;
+    font-size: 20px;
+    padding:  10px;
+}
+
+.linkCat{
+    text-decoration: none;
+    color:  rgb(57, 56, 56) ;
+}

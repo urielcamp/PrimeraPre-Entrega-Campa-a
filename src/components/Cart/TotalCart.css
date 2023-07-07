@@ -1,0 +1,91 @@
+.artT{
+    border-radius: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-around;
+}
+
+.tCard{
+    font-size: 30px ;
+    text-align: center;
+}
+
+/************************************************Form***********************************/
+
+
+.log{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 20px 20px 20px 10px;
+    background-color: #ffffff;
+    width: 340px;
+    border-radius: 10px;
+    border-left: black 1px ;
+}
+
+.nameLog{
+    font-size: 30px;
+    color: #dfeaf0;
+    margin: 10px;
+}
+
+.inputAge, .inputName, .inputMail{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+.divN{
+    background-color: #0F4C75;
+    width: 100%;
+    height: 15%;
+    border-radius: 10px;
+}
+
+.textC{
+    margin: 5px;
+    font-size: 18px;
+}
+
+input {
+    height: 28px;
+    } 
+
+
+.limpiarCart{
+    text-align: center;
+    font-size: 10px;
+    width: 90px;
+    height: auto;
+
+}
+
+.divCt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.inpContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.cT{
+    display: flex;
+    flex-direction: column;
+}
+
+.totalPagar{
+    text-align: right;
+    font-size: 25px;
+    margin: 5px;
+    color:#03253d
+}

@@ -1,0 +1,52 @@
+.logg{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin: 30px 30px 30px 400px ;
+    background-color: #ffffff;
+    width: 340px;
+    border-radius: 10px;
+}
+
+.nameLogg{
+    font-size: 30px;
+    color: #dfeaf0;
+    margin: 10px;
+}
+
+.inputAgee, .inputNamee, .inputMaill{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+
+.divNn{
+    background-color: #0F4C75;
+    width: 100%;
+    height: 15%;
+    border-radius: 10px;
+}
+
+.textCc{
+    margin: 5px;
+    font-size: 18px;
+}
+
+input {
+    height: 28px;
+    } 
+
+
+.subm{
+    margin: 10px 105px;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #7dadcd;
+    width: 130px;
+}
+
+.inpContainer{
+    display: flex;
+    flex-direction: column;
+}
